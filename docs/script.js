@@ -1,10 +1,10 @@
 function hoodify(sentence) {
   return sentence
     .replace(/you/gi, "ya")
-    .replace(/are/gi, "be")
+    .replace(/are/gi, "is")
     .replace(/my/gi, "ma")
     .replace(/friend/gi, "homie")
-    .replace(/\./g, " bruh.");
+    .replace(/\./g, " derp.");
 }
 
 document.getElementById("hoodifyBtn").addEventListener("click", () => {
