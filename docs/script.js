@@ -1,4 +1,6 @@
 function hoodify(sentence) {
+  sentence = sentence.toLowerCase();
+  
   return sentence
     .replace(/you/gi, "ya")
     .replace(/are/gi, "is")
